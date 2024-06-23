@@ -1,0 +1,9 @@
+function sortMyString(S) {
+    let even = [];
+    let odd = [];
+  
+    S.split("")
+     .forEach((el, idx) => idx % 2 == 0 ? even.push(el) : odd.push(el))
+              
+    return even.join("").concat(" ").concat(odd.join(""))
+  }
