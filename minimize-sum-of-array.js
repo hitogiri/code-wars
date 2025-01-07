@@ -6,7 +6,7 @@ function minSum(arr) {
 
   for (let i = 0; i < arr.length; i++) {
     if (i < (arr.length / 2)) {
-      store.push(arr[i] * arr[arr.length - (i + 1)])
+      products.push(arr[i] * arr[arr.length - (i + 1)])
     }
   }
 
